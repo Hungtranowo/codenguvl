@@ -13,6 +13,7 @@ bool isNguyenTo(long long n)
         }
     }
     return n > 1;
+    
 }
 
 int main()
