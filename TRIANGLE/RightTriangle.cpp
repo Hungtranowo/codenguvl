@@ -3,17 +3,14 @@
 using namespace std;
 
 int main(){
-    int n; cin >> n;
-    
-    for (int i=n; i>=1; i--)
-    {
-        for (int j=1; j<=i; j++){
-            if (j<i){
-                cout << " ";
-            }
-            else {
+    int number; cin >> number;
+
+    for (int i=1; i<=number; i++){
+        for (int j=number; j>0; j--){
+            if (j<=i){
                 cout << "*";
             }
+            else cout << " ";
         }
         cout << endl;
     }
