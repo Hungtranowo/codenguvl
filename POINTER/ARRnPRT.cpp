@@ -13,6 +13,7 @@ int main() {
 	// cout << p[1];
 	// cout << *(a);
 	// cout << (*p)[0];
-	cout << *(p+2);
+	// cout << *(p+2);
+	cout << sizeof(a)/sizeof(a[0]);
 	return 0;
 }
