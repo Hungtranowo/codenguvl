@@ -3,8 +3,9 @@
 using namespace std;
 
 int main(){
-    int a, b; cin >> a >> b;
-    int sum = a+b;
-    cout << sum;
+    unsigned long long a, b;
+    cin >> a >> b;
+
+    cout << a+b;
     return 0;
 }
